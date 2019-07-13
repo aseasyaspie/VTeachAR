@@ -15,7 +15,6 @@
 		1FFF915922DA6FE900B4795E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF915722DA6FE900B4795E /* LaunchScreen.storyboard */; };
 		1FFF916422DA6FE900B4795E /* VTeachARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF916322DA6FE900B4795E /* VTeachARTests.swift */; };
 		1FFF916F22DA6FE900B4795E /* VTeachARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF916E22DA6FE900B4795E /* VTeachARUITests.swift */; };
-		1FFF917D22DA706000B4795E /* Hi - Delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF917C22DA706000B4795E /* Hi - Delete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		1FFF916A22DA6FE900B4795E /* VTeachARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTeachARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFF916E22DA6FE900B4795E /* VTeachARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTeachARUITests.swift; sourceTree = "<group>"; };
 		1FFF917022DA6FE900B4795E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FFF917C22DA706000B4795E /* Hi - Delete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hi - Delete.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		1FFF914022DA6FE800B4795E = {
 			isa = PBXGroup;
 			children = (
-				1FFF917C22DA706000B4795E /* Hi - Delete.swift */,
 				1FFF914B22DA6FE800B4795E /* VTeachAR */,
 				1FFF916222DA6FE900B4795E /* VTeachARTests */,
 				1FFF916D22DA6FE900B4795E /* VTeachARUITests */,
@@ -264,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FFF915122DA6FE800B4795E /* ViewController.swift in Sources */,
-				1FFF917D22DA706000B4795E /* Hi - Delete.swift in Sources */,
 				1FFF914D22DA6FE800B4795E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

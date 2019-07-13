@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SceneKit
+import SpriteKit
 import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
@@ -28,8 +28,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+    }
+    func setupScene() {
+        let scene = SCNScene()
+        sceneView.scene = scene
     }
     
+    func setupConfiguration() {
+        let configuration = ARWorldTrackingConfiguration()
+        sceneView.session.run(configuration)
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
