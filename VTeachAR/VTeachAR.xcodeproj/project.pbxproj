@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F50FC3222DAAA7A00127CC7 /* Exede_4740_med-228x300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F50FC3122DAAA7A00127CC7 /* Exede_4740_med-228x300.jpg */; };
 		1FFF914D22DA6FE800B4795E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF914C22DA6FE800B4795E /* AppDelegate.swift */; };
 		1FFF914F22DA6FE800B4795E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF914E22DA6FE800B4795E /* art.scnassets */; };
 		1FFF915122DA6FE800B4795E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF915022DA6FE800B4795E /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		1FFF915922DA6FE900B4795E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF915722DA6FE900B4795E /* LaunchScreen.storyboard */; };
 		1FFF916422DA6FE900B4795E /* VTeachARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF916322DA6FE900B4795E /* VTeachARTests.swift */; };
 		1FFF916F22DA6FE900B4795E /* VTeachARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF916E22DA6FE900B4795E /* VTeachARUITests.swift */; };
+		1FFF918322DA995C00B4795E /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF918222DA995C00B4795E /* MyScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F50FC3122DAAA7A00127CC7 /* Exede_4740_med-228x300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Exede_4740_med-228x300.jpg"; path = "Assets.xcassets/Exede_4740_med-228x300.jpg"; sourceTree = "<group>"; };
 		1FFF914922DA6FE800B4795E /* VTeachAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTeachAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFF914C22DA6FE800B4795E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FFF914E22DA6FE800B4795E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		1FFF916A22DA6FE900B4795E /* VTeachARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VTeachARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFF916E22DA6FE900B4795E /* VTeachARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTeachARUITests.swift; sourceTree = "<group>"; };
 		1FFF917022DA6FE900B4795E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFF918222DA995C00B4795E /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,15 @@
 		1FFF914B22DA6FE800B4795E /* VTeachAR */ = {
 			isa = PBXGroup;
 			children = (
+				1FFF915022DA6FE800B4795E /* ViewController.swift */,
+				1FFF918222DA995C00B4795E /* MyScene.sks */,
 				1FFF914C22DA6FE800B4795E /* AppDelegate.swift */,
 				1FFF914E22DA6FE800B4795E /* art.scnassets */,
-				1FFF915022DA6FE800B4795E /* ViewController.swift */,
 				1FFF915222DA6FE800B4795E /* Main.storyboard */,
-				1FFF915522DA6FE900B4795E /* Assets.xcassets */,
 				1FFF915722DA6FE900B4795E /* LaunchScreen.storyboard */,
 				1FFF915A22DA6FE900B4795E /* Info.plist */,
+				1FFF915522DA6FE900B4795E /* Assets.xcassets */,
+				1F50FC3122DAAA7A00127CC7 /* Exede_4740_med-228x300.jpg */,
 			);
 			path = VTeachAR;
 			sourceTree = "<group>";
@@ -233,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FFF914F22DA6FE800B4795E /* art.scnassets in Resources */,
+				1F50FC3222DAAA7A00127CC7 /* Exede_4740_med-228x300.jpg in Resources */,
 				1FFF915922DA6FE900B4795E /* LaunchScreen.storyboard in Resources */,
+				1FFF918322DA995C00B4795E /* MyScene.sks in Resources */,
 				1FFF915622DA6FE900B4795E /* Assets.xcassets in Resources */,
 				1FFF915422DA6FE800B4795E /* Main.storyboard in Resources */,
 			);
@@ -437,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DXU2T694X;
 				INFOPLIST_FILE = VTeachAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DXU2T694X;
 				INFOPLIST_FILE = VTeachAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,6 +482,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DXU2T694X;
 				INFOPLIST_FILE = VTeachARTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,6 +503,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DXU2T694X;
 				INFOPLIST_FILE = VTeachARTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
